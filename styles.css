@@ -158,3 +158,53 @@ body {
   font-size: 0.75rem;
   color: rgba(12, 16, 20, 0.6);
 }
+
+/* =========================================================
+   ✅ SECCIÓN CORREGIDA: ICONO/LOGO PICAÑA + SWAP HOVER
+   (reemplaza tu bloque duplicado de .icon-wrapper / brand / swap)
+   ========================================================= */
+
+.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Botón marca (último) */
+.brand-button {
+  justify-content: center !important;
+  padding: 13px 0;
+}
+
+/* Contenedor fijo para evitar corrimientos */
+.swap-logo {
+  position: relative;
+  width: 96px;      /* ajusta ancho visual del logo */
+  height: 25px;     /* ajusta tamaño del logo */
+  margin: 0 auto;
+  display: block;
+}
+
+/* Dos imágenes superpuestas, centradas perfecto */
+.swap-logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  transition: opacity 0.25s ease;
+  display: block;
+}
+
+/* Estado inicial */
+.swap-logo .logo-default { opacity: 1; }
+.swap-logo .logo-hover { opacity: 0; }
+
+/* Hover */
+.brand-button:hover .logo-default { opacity: 0; }
+.brand-button:hover .logo-hover { opacity: 1; }
