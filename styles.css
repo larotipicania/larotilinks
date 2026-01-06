@@ -218,3 +218,16 @@ body {
 /* Hover swap */
 .brand-button:hover .logo-default { opacity: 0; }
 .brand-button:hover .logo-hover { opacity: 1; }
+
+/* 🔁 BOTÓN MARCA INVERTIDO (FORZADO) */
+.link-button.brand-button {
+  background: var(--bg-color);       /* 🖤 negro real */
+  border-color: var(--bg-color);
+  color: var(--accent-color);
+}
+
+/* Hover invertido */
+.link-button.brand-button:hover {
+  background: var(--accent-color);   /* 💛 amarillo */
+  color: var(--bg-color);
+}
