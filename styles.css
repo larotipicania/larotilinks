@@ -176,7 +176,7 @@ body {
 /* Botón marca (último) */
 .brand-button {
   justify-content: center !important;
-  padding: 13px 16px;                 /* MISMO tamaño que los demás */
+  padding: 12px 14px;                 /* MISMO tamaño que los demás */
   background: var(--bg-color);        /* 🖤 NEGRO default */
   border-color: var(--bg-color);
   color: var(--accent-color);
