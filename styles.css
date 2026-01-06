@@ -191,7 +191,7 @@ body {
 /* Contenedor fijo para evitar corrimientos */
 .swap-logo {
   position: relative;
-  width: 165px;      /* ajusta ancho visual del logo */
+  width: 120px;      /* ajusta ancho visual del logo */
   height: 30px;     /* ajusta tamaño del logo */
   margin: 0 auto;
   display: block;
