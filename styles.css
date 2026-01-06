@@ -130,7 +130,7 @@ body {
   color: var(--bg-color);
   vertical-align: middle;
   transform: translateY(-1px);
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .link-button:hover .icon {
