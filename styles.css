@@ -231,3 +231,7 @@ body {
   background: var(--accent-color);   /* 💛 amarillo */
   color: var(--bg-color);
 }
+
+.link-button {
+  height: 51.2px;          /* 🔥 igual a los otros botones */
+}
