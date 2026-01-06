@@ -176,7 +176,16 @@ body {
 /* Botón marca (último) */
 .brand-button {
   justify-content: center !important;
-  padding: 13px 0;
+  padding: 13px 16px;                 /* MISMO tamaño que los demás */
+  background: var(--bg-color);        /* 🖤 NEGRO default */
+  border-color: var(--bg-color);
+  color: var(--accent-color);
+}
+
+/* Hover invertido */
+.brand-button:hover {
+  background: var(--accent-color);    /* 💛 AMARILLO hover */
+  color: var(--bg-color);
 }
 
 /* Contenedor fijo para evitar corrimientos */
@@ -186,6 +195,7 @@ body {
   height: 25px;     /* ajusta tamaño del logo */
   margin: 0 auto;
   display: block;
+  line-height: 0;   /* evita altura fantasma */
 }
 
 /* Dos imágenes superpuestas, centradas perfecto */
@@ -205,6 +215,6 @@ body {
 .swap-logo .logo-default { opacity: 1; }
 .swap-logo .logo-hover { opacity: 0; }
 
-/* Hover */
+/* Hover swap */
 .brand-button:hover .logo-default { opacity: 0; }
 .brand-button:hover .logo-hover { opacity: 1; }
