@@ -252,21 +252,21 @@ body {
 .horario-title span {
   flex: 1;
   height: 1px;
-  background: #d8b44a;
-  opacity: .35;
+  background: var(--bg-color);
+  opacity: 0.35;
 }
 
 .horario-title h2 {
   margin: 0;
-  color: #d8b44a;
+  color: var(--bg-color);
   font-size: 15px;
   font-weight: 700;
-  letter-spacing: .25em;
+  letter-spacing: 0.25em;
 }
 
 .horario .subtitle {
   margin: 0 0 8px;
-  color: #d8b44a;
+  color: rgba(12, 16, 20, 0.75);
   line-height: 1.4;
 }
 
